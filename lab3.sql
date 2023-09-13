@@ -32,3 +32,6 @@ values('p3@jmu.edu','p3','o3') ;
 
 insert into course(c_number,c_name,room,p_email)
 values('c4','facebook','r1','p3@jmu.edu')
+
+--q2.6
+-- have to change course table first because you cannot delete p1 while they are still teaching courses
