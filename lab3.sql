@@ -35,3 +35,9 @@ values('c4','facebook','r1','p3@jmu.edu')
 
 --q2.6
 -- have to change course table first because you cannot delete p1 while they are still teaching courses
+update course
+set p_email = 'p3@jmu.edu'
+where p_email = 'p1@jmu.edu' ; 
+
+delete from professor
+where p_email = 'p1@jmu.edu'
